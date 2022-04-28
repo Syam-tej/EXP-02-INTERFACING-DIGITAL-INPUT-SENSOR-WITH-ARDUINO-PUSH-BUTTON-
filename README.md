@@ -42,8 +42,10 @@ PROCEDURE
 3.	Develop the program and compile it for any errors 
 4.	 .Execute the program 
 5.	Check the simulation 
+
 ## CODE:
- int buttonstate = 0;
+```
+int buttonstate = 0;
 void setup()
 {
   pinMode(2,OUTPUT);
@@ -60,7 +62,7 @@ void loop()
   }
   delay(10);
 }
-
+```
  
  
  
